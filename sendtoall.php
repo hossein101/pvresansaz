@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '272433880:AAG_7lJ6r2GeM5axs5dc7YVJhJ8fgl3AyK8');
+define('BOT_TOKEN', '289704127:AAGz9wZCV0DGKwAI82oEJB-PU1ZxAdus36c');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -132,11 +132,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-ارتباط با ادمین  👈        [⭐️Admin⭐️](https://telegram.me/danial68987)
+ارتباط با ادمین  👈        [⭐️Admin⭐️](https://telegram.me/Vahshi_typer)
 
 🔹هر نفر = یک ربات ✖️
 🔸ربات دوم = 5000ت ✔️
-🤖 @PYamRESAnsaz',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @Red_Ch',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -162,7 +162,7 @@ $pmembersid= explode("\n",$txxt);
     }else if ($text == "Version") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PvResan</b>
 <b>ver. 3.0</b>
-<code>Coded By</code> @nawr_i_man
+<code>Coded By</code> @Vahshi_typer
 Copy Right 2016©","parse_mode"=>"html"));
 
 
@@ -200,7 +200,7 @@ Copy Right 2016©","parse_mode"=>"html"));
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://clienttg.ir/pv2/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://pvresansaz-darkhand.rhcloud.com'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
@@ -236,14 +236,14 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://clienttg.ir/pv2/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://pvresansaz-darkhand.rhcloud.com'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=PAyamResansazibot
+ https://telegram.me/storebot?start=pvresan_ho3ein_bot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot272433880:AAG_7lJ6r2GeM5axs5dc7YVJhJ8fgl3AyK8/"; 
+    $bot_url    = "https://api.telegram.org/bot289704127:AAGz9wZCV0DGKwAI82oEJB-PU1ZxAdus36c/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -275,7 +275,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @payamresan_danialbot"));
+🚀 @ho3eindeltabot"));
       }
     }
       
@@ -320,14 +320,14 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://clienttg.ir/pv2/'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://pvresansaz-darkhand.rhcloud.com'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=PAyamResansazibot
+ https://telegram.me/storebot?start=pvresan_ho3ein_bot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot272433880:AAG_7lJ6r2GeM5axs5dc7YVJhJ8fgl3AyK8/"; 
+    $bot_url    = "https://api.telegram.org/bot289704127:AAGz9wZCV0DGKwAI82oEJB-PU1ZxAdus36c/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -354,7 +354,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @payamresan_danialbot"));
+🚀 @ho3eindeltabot"));
       }
 
     }
