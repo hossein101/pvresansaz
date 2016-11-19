@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '272433880:AAG_7lJ6r2GeM5axs5dc7YVJhJ8fgl3AyK8');
+define('BOT_TOKEN', '271048543:AAEpOMNPcgceZIvgMSUshlaIEkHLxjvCxQA');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -132,11 +132,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-ارتباط با ادمین👈👈😄😄  👈        [⭐️Admin⭐️](https://telegram.me/danial68987)
+ارتباط با ادمین👈👈😄😄  👈        [⭐️Admin⭐️](https://telegram.me/vahshi_typer)
 
 🔹هر نفر = یک ربات ✖️
 🔸ربات دوم = 5000ت ✔️
-🤖 @PYamRESAnsaz',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @vahshi_typer',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -228,7 +228,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
  https://telegram.me/storebot?start=PAyamResansazibot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot272433880:AAG_7lJ6r2GeM5axs5dc7YVJhJ8fgl3AyK8/"; 
+    $bot_url    = "https://api.telegram.org/bot271048543:AAEpOMNPcgceZIvgMSUshlaIEkHLxjvCxQA/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -312,7 +312,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
  https://telegram.me/storebot?start=PAyamResansazibot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot272433880:AAG_7lJ6r2GeM5axs5dc7YVJhJ8fgl3AyK8/"; 
+    $bot_url    = "https://api.telegram.org/bot271048543:AAEpOMNPcgceZIvgMSUshlaIEkHLxjvCxQA/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
