@@ -136,7 +136,7 @@ function processMessage($message) {
 
 🔹هر نفر = یک ربات ✖️
 🔸ربات دوم = 5000ت ✔️
-🤖 @hoe3eindeltabot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @ho3eindeltabot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
